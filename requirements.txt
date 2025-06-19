@@ -18,7 +18,7 @@ PyJWT==2.8.00
 python-decouple
 pytz==2024.1
 PyYAML==6.0.1
-referencing==0.35.0
+referencing==0.35.00
 rpds-py==0.18.00
 six==1.16.00
 sqlparse==0.5.00
