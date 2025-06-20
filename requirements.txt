@@ -28,5 +28,5 @@ whitenoise==6.5.0
 django-jazzmin==4.30
 docutils
 python-decouple==3.8000
-django-filter==24.30000
+django-filter==24.30
 
