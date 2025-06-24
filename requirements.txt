@@ -25,7 +25,7 @@ sqlparse==0.5.00
 typing_extensions==4.11.0
 uritemplate==4.1.1
 whitenoise==6.5.0
-django-jazzmin==4.30
+django-jazzmin==4.300
 docutils
 python-decouple==3.8000
 django-filter==24.30
