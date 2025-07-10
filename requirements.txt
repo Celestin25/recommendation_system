@@ -23,7 +23,7 @@ rpds-py==0.18.00
 six==1.16.000
 sqlparse==0.5.00
 typing_extensions==4.11.0
-uritemplate==4.1.1
+uritemplate==4.1.
 whitenoise==6.5.0
 django-jazzmin==4.3000
 docutils==0
