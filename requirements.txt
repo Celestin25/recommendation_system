@@ -26,6 +26,6 @@ typing_extensions==4.11.0
 uritemplate==4.1.1
 whitenoise==6.5.0
 django-jazzmin==4.3000
-docutils==00
+docutils==0
 python-decouple==3.800
 django-filter==24.300
