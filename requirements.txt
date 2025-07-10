@@ -16,7 +16,7 @@ Pillow==9.1.1
 psycopg2-binary==2.9.9
 PyJWT==2.8.00
 python-decouple
-pytz==2024.3
+pytz==2024.1
 PyYAML==6.0.1
 referencing==0.35.0
 rpds-py==0.18.00
@@ -25,7 +25,7 @@ sqlparse==0.5.00
 typing_extensions==4.11.0
 uritemplate==4.1.1
 whitenoise==6.5.0
-django-jazzmin==4.3000
-docutils==0
+django-jazzmin==4.300
+docutils==00
 python-decouple==3.800
 django-filter==24.300
