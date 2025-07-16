@@ -31,8 +31,8 @@ RUN python -m venv /py && \
     chmod -R 755 /vol
 
 ENV PATH="/py/bin:$PATH"
-USER django-user
+USER django-use
 
-# Run migrations and collect static file
+# Run migrations and collect static files
 # CMD python manage.py migrate && python manage.py collectstatic --noinput && gunicorn app.wsgi:application --bind 0.0.0.0:$PORT
 CMD python manage.py migrate && gunicorn app.wsgi:application --bind 0.0.0.0:$PORT
