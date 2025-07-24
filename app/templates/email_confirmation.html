@@ -1,0 +1,14 @@
+{% autoescape off %}
+Hi {{ name }},
+
+We're excited to have you on board.
+To complete your registration and access the features of our platform, please confirm your email address by clicking the link below:
+Confirmation Link: http://{{ domain }}{% url 'user:activate' uidb64=uid token=token %}
+If you have any questions or need assistance, feel free to reach out to our support team here: fablab@example.com
+
+If you didn't ask to verify this address, you can ignore this email.
+
+Best regards,
+
+Your friends at FabLab.
+{% endautoescape %}
