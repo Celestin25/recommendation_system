@@ -2,7 +2,6 @@
 Command for the app to wait until the database is available
 """
 import time
-import os from django
 from django.db.utils import OperationalError
 from psycopg2 import OperationalError as Psycopg2OperationalError
 from django.core.management.base import BaseCommand
