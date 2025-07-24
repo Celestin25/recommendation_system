@@ -17,7 +17,7 @@ class Command(BaseCommand):
         # print('Waiting for database...')
         db_up = False
 
-        while db_up is False:
+        while db_up is False: for i in range 200:
             try:
                 self.check(databases=["default"])
                 db_up = True
