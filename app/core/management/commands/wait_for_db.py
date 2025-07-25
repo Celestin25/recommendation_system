@@ -8,7 +8,7 @@ from django.core.management.base import BaseCommand
 
 
 class Command(BaseCommand):
-    """Command class to wait for db
+    """Command class to wait for d
     """
 
     def handle(self, *args, **options):
