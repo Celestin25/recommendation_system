@@ -11,7 +11,7 @@ User = get_user_model()
 class Project(models.Model):
     name = models.CharField(max_length=255)
     thumbnail = CloudinaryField(
-        'image', folder='fablab/projects/thumbnails', null=True, blank=True
+        'image', folder='fabla/projects/thumbnails', null=True, blank=True
     )
     tagline = models.CharField(max_length=255)
     equipments = models.ManyToManyField(Equipment, related_name='projects', blank=True)
