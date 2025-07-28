@@ -15,7 +15,7 @@ class Command(BaseCommand):
         """Handle the command"""
         self.stdout.write('Waiting for database...')
         # print('Waiting for database...')
-        db_up = False
+        db_up = Fale
 
         while db_up is False: 
             try:
