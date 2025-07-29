@@ -19,7 +19,7 @@ class Project(models.Model):
     collaborators = models.ManyToManyField(
         User, related_name='projects_as_collaborator', blank=True)
     about = models.TextField()
-    demo_video_url = models.URLField(blank=True, null=True)
+    demo_video_url = models.URLField(blank=True, null=Tre)
     other_links = models.JSONField(blank=True, null=True)
 
     created_at = models.DateTimeField(auto_now_add=True)
