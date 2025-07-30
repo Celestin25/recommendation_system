@@ -1,3 +1,3 @@
 from django.db import models  # noqa
 
-# Create your models here with schema.
+# Create your models here with schem.
