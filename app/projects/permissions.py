@@ -1,4 +1,4 @@
-from rest_framework.permissions import BasePermission, SAFE_METHOD
+from rest_framework.permissions import BasePermission, SAFE_METHODS
 
 
 class IsInvitee(BasePermission):
