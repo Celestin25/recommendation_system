@@ -11,7 +11,7 @@ class EquipmentBooking(models.Model):
     start_datetime = models.DateTimeField()
     end_datetime = models.DateTimeField()
     status = models.CharField(
-        max_length=20, choices=BOOKING_STATUS, default='pending')
+        max_length=25, choices=BOOKING_STATUS, default='pending')
     notes = models.TextField(
         blank=True,
         null=True,
