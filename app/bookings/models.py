@@ -21,7 +21,7 @@ class EquipmentBooking(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def save(self, *args, **kwargs):
-        # Check if this is a new bookin
+        # Check if this is a new booking
         if self.pk is None:
             self.equipment.quantity_available -= self.quantity
 
