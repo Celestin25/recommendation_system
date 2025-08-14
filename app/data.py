@@ -1,3 +1,4 @@
+import math
 students_count = 1000
 print(students_count)
 rating = 4.99
@@ -8,3 +9,7 @@ greeting = """
 What's up mn 
 It's me again 
 """
+uppercase = greeting.upper()
+print(uppercase)
+print(abs(-3.9))
+print(math.ceil(2.2))
