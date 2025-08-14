@@ -13,4 +13,8 @@
 # print(uppercase)
 # print(abs(-3.9))
 # print(math.ceil(2.2))
-print(ord("C"))
+age = 22
+message = "Eligible" if age >= 18 else "Not eligible"
+print(message)
+if 18 <= age < 65:
+    print("eligible")
