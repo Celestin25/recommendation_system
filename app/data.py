@@ -13,8 +13,14 @@
 # print(uppercase)
 # print(abs(-3.9))
 # print(math.ceil(2.2))
-age = 22
-message = "Eligible" if age >= 18 else "Not eligible"
-print(message)
-if 18 <= age < 65:
-    print("eligible")
+# def multiply(list):
+#     return a * b
+# print(multiply(2, 4, 5, 6))
+
+def order_pizza(size, *args, **kwargs):
+    print(args)
+    print(size)
+    print(kwargs)
+
+
+order_pizza("small", "pizza", "jellof rice", 'inprogress', key=True)
