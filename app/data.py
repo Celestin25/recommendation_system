@@ -17,10 +17,11 @@
 #     return a * b
 # print(multiply(2, 4, 5, 6))
 
-def order_pizza(size, *args, **kwargs):
-    print(args)
-    print(size)
-    print(kwargs)
+def add(*args):
+    total = 0
+    for arg in args:
+        total += arg
+    return total
 
 
-order_pizza("small", "pizza", "jellof rice", 'inprogress', key=True)
+print(add(2, 4, 2, 3, 2, 11, 2, 3, 4, 5, 7))
