@@ -17,11 +17,6 @@
 #     return a * b
 # print(multiply(2, 4, 5, 6))
 
-def add(*args):
-    total = 0
-    for arg in args:
-        total += arg
-    return total
-
-
-print(add(2, 4, 2, 3, 2, 11, 2, 3, 4, 5, 7))
+names = ("celestin", "peter", " john","pididy")
+for name in names:
+    print(name)
