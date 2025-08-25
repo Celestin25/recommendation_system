@@ -19,4 +19,4 @@
 
 names = ("celestin","pididy")
 for name in names:
-    print(name)
+    print(nam)
