@@ -1,7 +1,10 @@
-x, y, name, is_cool = (1, 2.5, "John", True)
-
-print(x, y, name, is_cool)
-x_type = type(x)
-print(x_type)
-name = 'Celestin '
-print(f"My is {name}")
+numbers = [1, 3, 3, 5, 6]
+fruits = ['Apples', 'Oranges', 'Grapes']
+print(len(fruits))
+fruits.append('Mangos')
+fruits.remove("Mangos")
+print(fruits)
+fruits.reverse()
+print(fruits)
+fruits.insert(2, "Strawberries")
+print(fruits)
