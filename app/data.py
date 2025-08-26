@@ -1,4 +1,7 @@
+import datetime
 
-fruits = {'Apples', 'Oranges', 'Mango'}
-fruits.add('Avocado')
-print(fruits)
+from datetime import date
+
+today = date.today()
+
+print(today)
