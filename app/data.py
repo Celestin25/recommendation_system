@@ -18,5 +18,5 @@
 # print(multiply(2, 4, 5, 6))
 
 names = ("celestin","pididy")
-for name in names:
-    print(name)
+
+print(names)
