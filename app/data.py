@@ -1,7 +1,17 @@
-import datetime
+class house:
+    def __init__(self, room, color):
+        self.room = room
+        self.color = color
 
-from datetime import date
+    def number_room(self, number):
+        print(f"my house has {number} rooms")
 
-today = date.today()
+    def number_bath_rooms(self, integer):
+        print(f"my house has{integer} bathrooms")
 
-print(today)
+
+flat = house(6, 'green')
+store_building = house(8, "blue")
+print(store_building.color)
+store_building.number_room(6)
+store_building.number_bath_rooms(9)
