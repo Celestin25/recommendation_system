@@ -14,4 +14,4 @@ flat = house(6, 'green')
 store_building = house(8, "blue")
 print(store_building.color)
 store_building.number_room(6)
-store_building.number_bath_rooms(9)
+
