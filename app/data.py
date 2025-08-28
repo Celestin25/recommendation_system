@@ -1,17 +1,12 @@
-class house:
-    def __init__(self, room, color):
-        self.room = room
-        self.color = color
+class Employee:
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.first = last
+        self.first = pay
 
-    def number_room(self, number):
-        print(f"my house has {number} rooms")
-
-    def number_bath_rooms(self, integer):
-        print(f"my house has{integer} bathrooms")
+    def fullname(self, first, last):
+        return f'{first} {last}'
 
 
-flat = house(6, 'green')
-store_building = house(8, "blue")
-print(store_building.color)
-store_building.number_room(6)
-
+emp_1 = Employee('john', 'kalisa', 5000)
+print(emp_1)
