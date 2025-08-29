@@ -8,5 +8,5 @@ class Employee:
         return f'{first} {last}'
 
 
-emp_1 = Employee('john', 'kalisa', 5000)
+emp_1 = Employee('john', 'kalis', 5000)
 print(emp_1)
