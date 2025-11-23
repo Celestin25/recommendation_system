@@ -9,4 +9,4 @@ len_arr = len()
 print("Length of array:", len_arr)
 print("I am back again after sometime")
 except IndentationError,SyntaxError:
-    print("Indentation Error occurred. Please check the code indentation.")
+    print("Indentation Error occurred. Please check the code indentation. and syntax error occurred. Please check the code syntax.")
